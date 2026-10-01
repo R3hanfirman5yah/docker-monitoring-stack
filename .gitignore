@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.local
+
+# Data volumes
+config/prometheus/data/
+config/loki/data/
+config/grafana/data/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Node modules (if using npm)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
